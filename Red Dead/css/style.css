@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #FFF0F5;
+}
+
+
+/* Pagina Home - Menu*/
+
+.menu {
+    background-color: black;
+    padding: 15px;
+    width: 100%;
+    list-style: none;
+    font-size: 16px;
+    display: inline-block;
+    color: #f8f8f8;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    padding: 8px;
+    color: #f8f8f8;
+}
+
+.menu a:hover {
+    background-color: #D6D6D6;
+}
+
+
+/* Pagina Home */
+
+.fotos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.fotos img {
+    width: 25%;
+}
+
+.home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.home div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.title {
+    margin-left: 5px;
+    color: #f8f8f8;
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+.nome-titulo {
+    color: #FF0000;
+}
+
+
+/*pagina historia*/
+
+.historia {
+    text-align: justify;
+    text-indent: 60px;
+    line-height: 1.6;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mapa img {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 60%;
+}
+
+
+/* Pagina Personagens*/
+
+.perso img {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+
+/* Rodapé*/
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #000000;
+    color: #D6D6D6;
+    font-size: 16px;
+    font-family: Tahoma;
+    margin-top: 6%;
+}
+
+
+/* media queries */
+
+@media (max-width: 1024px) {
+    .menu {
+        width: 100%;
+        text-decoration: none;
+    }
+    .menu img {
+        width: 3%;
+    }
+    .fotos img {
+        width: 100%;
+    }
+    .home {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .mapa img {
+        width: 100%;
+    }
+    .perso img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 650px) {
+    .menu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+    }
+    .menu img {
+        width: 8%;
+    }
+    .fotos img {
+        width: 100%;
+    }
+    .mapa img {
+        width: 100%;
+    }
+    .perso img {
+        width: 100%;
+    }
+}
