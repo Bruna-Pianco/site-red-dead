@@ -2,6 +2,8 @@
 
 Neste projeto criei um site para o jogo Red Dead Redemption, é um conjunto de todos os cursos que efetuei até o momento: Digital Innovation One, Desenvolvimento Web - Udemy e as aulas da Etec.
 
+Link: https://bruna-pianco.github.io/site-red-dead/
+
 Tecnologias utilizadas:
 
 HTML e CSS 
